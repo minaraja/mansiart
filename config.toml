@@ -1,6 +1,6 @@
 # Site settings
 #baseURL = "https://github.com/minaraja/mansiart/"
-baseURL = "https://minaraja.github.io/mansiart"
+baseURL = "https://minaraja.github.io/mansiart/"
 languageCode = "es-ES"
 title = "Mans i Art"
 theme = "forty"
