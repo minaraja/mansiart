@@ -1,6 +1,6 @@
 # Site settings
 #baseURL = "https://github.com/minaraja/mansiart/"
-baseURL = "https://minaraja.github.io/mansiart/"
+baseURL = "https://minaraja.github.io/mansiart"
 languageCode = "es-ES"
 title = "Mans i Art"
 theme = "forty"
@@ -62,15 +62,15 @@ summaryLength = 20
 
     [[params.navigation.links]]
       name = "Blog"
-      url = "/posts"
+      url = "posts"
 
     [[params.navigation.links]]
       name = "Conocenos"
-      url = "/about"
+      url = "about"
 
     [[params.navigation.links]]
       name = "Tags"
-      url = "/tags"
+      url = "tags"
 
     # Add custom links here by uncommenting code below. To remove links just delete
     # the [[params.navigation.links]] map associated with that link. Copy and paste
@@ -98,7 +98,7 @@ summaryLength = 20
 	Compartimos nuestra pasión por el DIY, la costura, el scrap, el crochet, el mixmedia, el lettering y mucho más. 
 	En Mallorca."""
     buttonText = "Hazte socio"
-    buttonURL = "/about"
+    buttonURL = "about"
 
   # Tiles Section
   [params.tiles]
@@ -160,7 +160,7 @@ summaryLength = 20
     Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
     Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
     buttonText = "Me quiero apuntar"
-    url = "/posts"
+    url = "posts"
 
   # Contact section
   [params.contact]
