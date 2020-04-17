@@ -1,0 +1,237 @@
+# Site settings
+#baseURL = "https://github.com/minaraja/mansiart"
+baseURL = "https://minaraja.github.io/mansiart/"
+#baseURL = ""
+languageCode = "es-ES"
+title = "Mans i Art"
+theme = "forty"
+
+publishDir = "docs"
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+# Enter your disqus shortname to enable comments
+disqusShortname = ""
+
+# Number of posts to show in recent posts list (Optional). Defaults to 10.
+paginate = 10
+
+# Number of characters to show in summary.
+summaryLength = 20
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source)
+  # To create multi-line text in strings use the """example Text""" format
+  #
+  # All icons using Fontawesome's icon font. Look at fontawesome.io/icons
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # Provide your metadata here.
+  name = "Mans i Art"
+  description = "Asociación sin ánimo de lucro"
+
+  # Just a custom image variable, please define it in .md files for content.
+  image = ""
+
+  # Content types which are excludes Disqus comments.
+  disableDisqusTypes = ["page"]
+
+  # Specify favicon (icons/i.png maps to static/icons/i.png). No favicon if not defined.
+  favicon = "icons/favicon_32x32.png"
+
+  # 404 error customization
+  [params.error404]
+    heading = """The page you're looking for doesn't exist. 
+    Perhaps you'd like to gopher something else? 
+    Sorry"""
+    text = "Please visit [this page](/)"
+
+  # Navigation Section
+  [params.navigation]
+    title = "Prueba"
+    subtitle = "Mans i art"
+    menu = "Menu"
+    # Optional logo as brand stored in img/
+    # logo = "logo.png"
+    logo = "mansiart2.png"
+
+    [[params.navigation.links]]
+      name = "Inicio"
+      url = "/"
+
+    [[params.navigation.links]]
+      name = "Blog"
+      url = "/posts"
+
+    [[params.navigation.links]]
+      name = "Conocenos"
+      url = "/about"
+
+    [[params.navigation.links]]
+      name = "Tags"
+      url = "/tags"
+
+    # Add custom links here by uncommenting code below. To remove links just delete
+    # the [[params.navigation.links]] map associated with that link. Copy and paste
+    # code below if you need more links. Buttons work in the same way.
+    # [[params.navigation.links]]
+    #    name = "NameOfLink"
+    #    url = "UrlOfLink"
+
+    # Button Style 1
+    [[params.navigation.button1]]
+      name = "Hazte socio"
+      url = "posts"
+
+    # Button Style 2
+    [[params.navigation.button2]]
+      name = "Acceso"
+      url = "/"
+
+  # Banner section
+  [params.banner]
+    # To change the background image on the homepage banner, replace 'banner.jpg' in
+    # the 'static/img' folder.
+    title = "Mans i Art"
+    subtitle = """Asociación sin ánimo de lucro. 
+	Compartimos nuestra pasión por el DIY, la costura, el scrap, el crochet, el mixmedia, el lettering y mucho más. 
+	En Mallorca."""
+    buttonText = "Hazte socio"
+    buttonURL = "/about"
+
+  # Tiles Section
+  [params.tiles]
+    enable = true
+    # Display your showcases here.
+    
+    [[params.tiles.showcase]]
+      title = "Destacado 1: Primer: When You Have Too Much to Do"
+      subtitle = "You have a to-do list that scrolls on for days. You are managing multiple projects, getting lots of email and messages on different messaging systems, managing finances and personal health habits and so much more."
+      image = "pic01.jpg"
+      url = "posts/post-1"
+
+    [[params.tiles.showcase]]
+      title = "Destacado 2: Hugo shortcodes"
+      subtitle = "Here is a demo of all shortcodes available in Hugo."
+      image = "pic02.jpg"
+      url = "posts/post-6"
+
+    [[params.tiles.showcase]]
+      title = "Destacado 3: How to test dark mode?"
+      subtitle = "Here is how you can setup dark mode for Ezhil and test on various OS like iOS, Android, macOS and Windows 10."
+      image = "pic03.jpg"
+      url = "posts/post-7"
+
+    [[params.tiles.showcase]]
+      title = "Destacado 4: Typography"
+      subtitle = "Typography and syntax"
+      image = "pic04.jpg"
+      url = "posts/post-5"
+
+    [[params.tiles.showcase]]
+      title = "Destacado 5: How I Learned to Stop Procrastinating, & Love Letting Go"
+      subtitle = "The art of letting go."
+      image = "pic05.jpg"
+      url = "posts/post-3"
+
+    [[params.tiles.showcase]]
+      title = "Descatado 6: Getting Started with Traveling Ultralight"
+      subtitle = "Start by getting a small backpack (less than 20 liters) and then just travel with what fits in that."
+      image = "pic06.jpg"
+      url = "posts/post-4"
+      
+    # You can make more showcases by copy and pasting the code above
+
+  [params.blog]
+    # All blogs defined in their own files. You can find example blogs
+    # at 'exampleSite/content/blogs'. Copy the 'blogs' folder into the 'content' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    # To add more blogs just copy and paste the code.
+
+  # Section Type Two
+  [params.two]
+    enable = true
+    title = "Únete"
+    subtitle = """Si quieres formar parte de nuestra asociación, no lo pienses más. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
+    Mauris aliquet magna magna sed nunc rhoncus pharetra. 
+    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
+    Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
+    Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
+    buttonText = "Me quiero apuntar"
+    url = "/posts"
+
+  # Contact section
+  [params.contact]
+    enable = true
+    buttonSend = "Envía el mensaje"
+    buttonClear = "Limpiar"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below and uncomment
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    # formEmail = "example@domain.com"
+
+    # Contact Section
+    # You can add multiple emails, phone numbers, or addresses
+    # by copying the corresponding map with frontmatter code.
+    [[params.contact.email]]
+    title = "Email"
+    email = "example@domain.com"
+
+    [[params.contact.phone]]
+    title = "Phone"
+    phone = "(000) 000-0000 x1234"
+
+    [[params.contact.address]]
+    title = "Address"
+    street = "Street"
+    city = "City, ST 00000"
+    country = "Country"
+
+  # Footer section
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "© Copyright - Mans i Art"
+
+    # Uses font awesome icons
+    [[params.footer.social]]
+      icon = "fa-twitter"
+      url= "https://www.twitter.com"
+      label = "Twitter"
+
+    [[params.footer.social]]
+      icon = "fa-facebook"
+      url= "https://www.facebook.com"
+      label = "Facebook"
+
+    [[params.footer.social]]
+      icon = "fa-instagram"
+      url= "https://www.instagram.com"
+      label = "Instagram"
+    
+    [[params.footer.social]]
+      icon = "fa-github"
+      url= "https://www.github.com"
+      label = "GitHub"
+
+    [[params.footer.social]]
+      icon = "fa-linkedin"
+      url= "https://www.linkedin.com"
+      label = "LinkedIn"
+
+    [[params.footer.quicklinks]]
+      text = "Design: "
+      url= "https://www.html5up.net"
+      alt = "HTML5 UP"
