@@ -35,7 +35,7 @@ summaryLength = 20
   image = ""
   
   # parametro baseURL
-  baseURL = "https://minaraja.github.io/mansiart"
+  baseURL = ""
 
   # Content types which are excludes Disqus comments.
   disableDisqusTypes = ["page"]
