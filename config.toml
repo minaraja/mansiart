@@ -33,6 +33,9 @@ summaryLength = 20
 
   # Just a custom image variable, please define it in .md files for content.
   image = ""
+  
+  # parametro baseURL
+  baseURL = "https://minaraja.github.io/mansiart"
 
   # Content types which are excludes Disqus comments.
   disableDisqusTypes = ["page"]
