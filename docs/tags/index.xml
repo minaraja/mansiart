@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Mans i Art</title>
-    <link>https://minaraja.github.io/mansiart/tags/</link>
+    <link>https://mansiart.js.org/tags/</link>
     <description>Recent content in Tags on Mans i Art</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <lastBuildDate>Sun, 18 Mar 2018 12:13:32 +0530</lastBuildDate>
     
-	<atom:link href="https://minaraja.github.io/mansiart/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mansiart.js.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Procrastinating</title>
-      <link>https://minaraja.github.io/mansiart/tags/procrastinating/</link>
+      <link>https://mansiart.js.org/tags/procrastinating/</link>
       <pubDate>Sun, 18 Mar 2018 12:13:32 +0530</pubDate>
       
-      <guid>https://minaraja.github.io/mansiart/tags/procrastinating/</guid>
+      <guid>https://mansiart.js.org/tags/procrastinating/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Space</title>
-      <link>https://minaraja.github.io/mansiart/tags/space/</link>
+      <link>https://mansiart.js.org/tags/space/</link>
       <pubDate>Sun, 18 Mar 2018 12:13:30 +0530</pubDate>
       
-      <guid>https://minaraja.github.io/mansiart/tags/space/</guid>
+      <guid>https://mansiart.js.org/tags/space/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Primer</title>
-      <link>https://minaraja.github.io/mansiart/tags/primer/</link>
+      <link>https://mansiart.js.org/tags/primer/</link>
       <pubDate>Sun, 18 Mar 2018 02:01:58 +0530</pubDate>
       
-      <guid>https://minaraja.github.io/mansiart/tags/primer/</guid>
+      <guid>https://mansiart.js.org/tags/primer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>todo</title>
-      <link>https://minaraja.github.io/mansiart/tags/todo/</link>
+      <link>https://mansiart.js.org/tags/todo/</link>
       <pubDate>Sun, 18 Mar 2018 02:01:58 +0530</pubDate>
       
-      <guid>https://minaraja.github.io/mansiart/tags/todo/</guid>
+      <guid>https://mansiart.js.org/tags/todo/</guid>
       <description></description>
     </item>
     

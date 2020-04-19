@@ -1,6 +1,6 @@
 # Site settings
 #baseURL = "https://github.com/minaraja/mansiart/"
-baseURL = "https://minaraja.github.io/mansiart/"
+baseURL = "https://mansiart.js.org/"
 languageCode = "es-ES"
 title = "Mans i Art"
 theme = "forty"
@@ -34,8 +34,8 @@ summaryLength = 20
   # Just a custom image variable, please define it in .md files for content.
   image = ""
   
-  # parametro baseURL
-  baseURL = "https://minaraja.github.io/mansiart"
+  # parametro baseURL misma que sitesettings baseURL pero sin la /
+  baseURL = "https://mansiart.js.org"
 
   # Content types which are excludes Disqus comments.
   disableDisqusTypes = ["page"]
