@@ -52,8 +52,8 @@ summaryLength = 20
 
   # Navigation Section
   [params.navigation]
-    title = "Prueba"
-    subtitle = "Mans i art"
+    title = "Mans i art"
+    subtitle = "Asociación"
     menu = "Menu"
     # Optional logo as brand stored in img/
     # logo = "logo.png"
@@ -68,7 +68,7 @@ summaryLength = 20
       url = "posts"
 
     [[params.navigation.links]]
-      name = "Conocenos"
+      name = "Conócenos"
       url = "about"
 
     [[params.navigation.links]]
@@ -85,12 +85,12 @@ summaryLength = 20
     # Button Style 1
     [[params.navigation.button1]]
       name = "Hazte socio"
-      url = "posts"
+      url = "socios"
 
     # Button Style 2
-    [[params.navigation.button2]]
-      name = "Acceso"
-      url = "/"
+    #[[params.navigation.button2]]
+    #  name = "Acceso"
+    #  url = "/"
 
   # Banner section
   [params.banner]
@@ -101,7 +101,7 @@ summaryLength = 20
 	Compartimos nuestra pasión por el DIY, la costura, el scrap, el crochet, el mixmedia, el lettering y mucho más. 
 	En Mallorca."""
     buttonText = "Hazte socio"
-    buttonURL = "about"
+    buttonURL = "socios"
 
   # Tiles Section
   [params.tiles]
@@ -162,13 +162,13 @@ summaryLength = 20
     Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
     Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
     Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
-    buttonText = "Me quiero apuntar"
-    url = "posts"
+    buttonText = "Hazte socio"
+    url = "socios"
 
   # Contact section
   [params.contact]
     enable = true
-    buttonSend = "Envía el mensaje"
+    buttonSend = "Contacta con nosotros"
     buttonClear = "Limpiar"
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -182,56 +182,56 @@ summaryLength = 20
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-    # formEmail = "example@domain.com"
+     formEmail = "info.mansiart@gmail.com"
 
     # Contact Section
     # You can add multiple emails, phone numbers, or addresses
     # by copying the corresponding map with frontmatter code.
     [[params.contact.email]]
-    title = "Email"
-    email = "example@domain.com"
+    title = "Correo electrónico"
+    email = "info.mansiart@gmail.com"
 
-    [[params.contact.phone]]
-    title = "Phone"
-    phone = "(000) 000-0000 x1234"
+    #[[params.contact.phone]]
+    #title = "Phone"
+    #phone = "(000) 000-0000 x1234"
 
-    [[params.contact.address]]
-    title = "Address"
-    street = "Street"
-    city = "City, ST 00000"
-    country = "Country"
+    #[[params.contact.address]]
+    #title = "Address"
+    #street = "Street"
+    #city = "City, ST 00000"
+    #country = "Country"
 
   # Footer section
   # Footer section
   [params.footer]
     enable = true
-    copyright = "© Copyright - Mans i Art"
+    copyright = "Copyright - Mans i Art"
 
     # Uses font awesome icons
-    [[params.footer.social]]
-      icon = "fa-twitter"
-      url= "https://www.twitter.com"
-      label = "Twitter"
+    #[[params.footer.social]]
+    #  icon = "fa-twitter"
+    #  url= "https://www.twitter.com"
+    #  label = "Twitter"
 
-    [[params.footer.social]]
-      icon = "fa-facebook"
-      url= "https://www.facebook.com"
-      label = "Facebook"
+    #[[params.footer.social]]
+    #  icon = "fa-facebook"
+    #  url= "https://www.facebook.com"
+    #  label = "Facebook"
 
     [[params.footer.social]]
       icon = "fa-instagram"
-      url= "https://www.instagram.com"
+      url= "https://www.instagram.com/mansiart_mallorca/"
       label = "Instagram"
     
-    [[params.footer.social]]
-      icon = "fa-github"
-      url= "https://www.github.com"
-      label = "GitHub"
+    #[[params.footer.social]]
+    #  icon = "fa-github"
+    #  url= "https://www.github.com"
+    #  label = "GitHub"
 
-    [[params.footer.social]]
-      icon = "fa-linkedin"
-      url= "https://www.linkedin.com"
-      label = "LinkedIn"
+    #[[params.footer.social]]
+    #  icon = "fa-linkedin"
+    #  url= "https://www.linkedin.com"
+    #  label = "LinkedIn"
 
     [[params.footer.quicklinks]]
       text = "Design: "
