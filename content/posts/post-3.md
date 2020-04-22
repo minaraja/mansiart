@@ -3,7 +3,7 @@ title: "How I Learned to Stop Procrastinating, & Love Letting Go"
 date: 2018-03-18T12:13:32+05:30
 description: "The art of letting go."
 tags: [Procrastinating]
-image: costura.jpg
+image: costura.png
 ---
 
 The end of procrastination is the art of letting go.

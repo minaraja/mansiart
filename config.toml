@@ -111,37 +111,37 @@ summaryLength = 20
     [[params.tiles.showcase]]
       title = "Destacado 1: Primer: When You Have Too Much to Do"
       subtitle = "You have a to-do list that scrolls on for days. You are managing multiple projects, getting lots of email and messages on different messaging systems, managing finances and personal health habits and so much more."
-      image = "ideas.jpg"
+      image = "ideas.png"
       url = "posts/post-1"
 
     [[params.tiles.showcase]]
       title = "Destacado 2: Hugo shortcodes"
       subtitle = "Here is a demo of all shortcodes available in Hugo."
-      image = "arcoiris.jpg"
+      image = "arcoiris.png"
       url = "posts/post-6"
 
     [[params.tiles.showcase]]
       title = "Destacado 3: How to test dark mode?"
       subtitle = "Here is how you can setup dark mode for Ezhil and test on various OS like iOS, Android, macOS and Windows 10."
-      image = "jarron.jpg"
+      image = "jarron.png"
       url = "posts/post-7"
 
     [[params.tiles.showcase]]
       title = "Destacado 4: Typography"
       subtitle = "Typography and syntax"
-      image = "pic04.jpg"
+      image = "pic04.png"
       url = "posts/post-5"
 
     [[params.tiles.showcase]]
       title = "Destacado 5: How I Learned to Stop Procrastinating, & Love Letting Go"
       subtitle = "The art of letting go."
-      image = "costura.jpg"
+      image = "costura.png"
       url = "posts/post-3"
 
     [[params.tiles.showcase]]
       title = "Descatado 6: Getting Started with Traveling Ultralight"
       subtitle = "Start by getting a small backpack (less than 20 liters) and then just travel with what fits in that."
-      image = "pintura.jpg"
+      image = "pintura.png"
       url = "posts/post-4"
       
     # You can make more showcases by copy and pasting the code above
