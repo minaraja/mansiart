@@ -129,7 +129,7 @@ summaryLength = 20
     [[params.tiles.showcase]]
       title = "Destacado 4: Typography"
       subtitle = "Typography and syntax"
-      image = "pic04.png"
+      image = "pic04.jpg"
       url = "posts/post-5"
 
     [[params.tiles.showcase]]
