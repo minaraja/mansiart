@@ -2,7 +2,7 @@
 #baseURL = "https://github.com/minaraja/mansiart/"
 baseURL = "https://mansiart.js.org/"
 languageCode = "es-ES"
-title = "Mans i Art"
+title = "Mans&Art"
 theme = "forty"
 
 publishDir = "docs"
@@ -28,7 +28,7 @@ summaryLength = 20
   # CSS class.
 
   # Provide your metadata here.
-  name = "Mans i Art"
+  name = "Mans & Art"
   description = "Asociación sin ánimo de lucro"
 
   # Just a custom image variable, please define it in .md files for content.
@@ -52,7 +52,7 @@ summaryLength = 20
 
   # Navigation Section
   [params.navigation]
-    title = "Mans i art"
+    title = "Mans & art"
     subtitle = "Asociación"
     menu = "Menu"
     # Optional logo as brand stored in img/
@@ -96,7 +96,7 @@ summaryLength = 20
   [params.banner]
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
-    title = "Mans i Art"
+    title = "Mans & Art"
     subtitle = """Asociación sin ánimo de lucro. 
 	Compartimos nuestra pasión por el DIY, la costura, el scrap, el crochet, el mixmedia, el lettering y mucho más. 
 	En Mallorca."""
@@ -205,7 +205,7 @@ summaryLength = 20
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Copyright - Mans i Art"
+    copyright = "Copyright - Mans & Art"
 
     # Uses font awesome icons
     #[[params.footer.social]]
