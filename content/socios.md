@@ -8,7 +8,7 @@ Mans & Art, necesita tu ayuda para continuar con nuestros objetivos prioritarios
 
 Para hacerte socio debes enviar un correo electrónico con el formulario de inscripción de nuestra página principal. Por nuestra parte te enviaremos un mail donde te indicaremos el número de cuenta en el que podrás realizar el ingreso de la cuota anual, que es de 12€.
 
-## Ventajas para soci@s
+## Ventajas para socios
 
 En este apartado conocerás todas las ventajas de las que puedes disfrutar por ser socios de Mans & Art.
 
